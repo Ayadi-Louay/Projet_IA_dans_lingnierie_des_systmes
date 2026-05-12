@@ -1,14 +1,14 @@
 
-# Projet_IA_dans_lingnierie_des_systmes
+# Projet_IA_dans_l'ingnierie_des_systèmes
 
-# MailHog Spam Classification System
+# MailHog Spam and phishing Classification System
 
 ## Overview
 
 This project is a local email simulation platform that integrates:
 
 * MailHog as a local SMTP server and email testing environment
-* A Python spam/phishing classification service using a Naive Bayes model
+* A Python spam/phishing classification service using a GRU model
 * A Node.js backend API
 * A React (TSX + CSS) frontend mailbox interface
 
@@ -35,7 +35,7 @@ MailHog SMTP Server
         |
         v
 Python Spam Classifier
-(Naive Bayes Model)
+(GRU deep learning Model)
 ```
 
 ---
@@ -63,7 +63,7 @@ Python Spam Classifier
 * Download emails from MailHog API
 * Extract email content
 * Vectorize email text
-* Predict spam probability using Naive Bayes
+* Predict spam probability using GRU (RNN deep learning model)
 * Mark spam emails with `**`
 * Re-upload processed emails to MailHog
 * Prevent duplicate processing using email IDs
@@ -90,7 +90,7 @@ Python Spam Classifier
 * Python
 * Scikit-learn
 * Joblib
-* Naive Bayes
+* GRU / RNN / deep learning 
 
 ## Mail Server
 
@@ -202,7 +202,7 @@ phishing_vectorizer.pkl
 
 These files contain:
 
-* trained Naive Bayes model
+* trained GRU model
 * TF-IDF vectorizer
 
 ---
