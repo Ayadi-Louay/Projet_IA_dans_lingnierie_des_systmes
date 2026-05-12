@@ -322,6 +322,11 @@ http://localhost:5173/?mailbox=bob@local
 ```
 
 ---
+# Vidéo Démo:
+
+https://github.com/user-attachments/assets/f933e259-af38-4b58-aecc-471a91a0c426
+
+
 
 # Mailbox Filtering Logic
 
